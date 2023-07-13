@@ -17,9 +17,9 @@ export const products = [
     originalsubPrice: 99,
     tempYear: tempDate.getFullYear(),
     tempMonth: tempDate.getMonth(),
-    tempDay: tempDate.getDate(),
-    hours: 18,
-    minutes: 40,
+    tempDay: tempDate.getDate() + 5,
+    hours: 16,
+    minutes: 59,
     seconds: 0,
   },
   {
@@ -38,9 +38,9 @@ export const products = [
     originalsubPrice: 99,
     tempYear: tempDate.getFullYear(),
     tempMonth: tempDate.getMonth(),
-    tempDay: tempDate.getDate() + 10,
-    hours: 19,
-    minutes: 39,
+    tempDay: tempDate.getDate() + 11,
+    hours: 13,
+    minutes: 45,
     seconds: 0,
   },
   {
@@ -55,34 +55,33 @@ export const products = [
     originalsubPrice: 99,
     tempYear: tempDate.getFullYear(),
     tempMonth: tempDate.getMonth(),
-    tempDay: tempDate.getDate(),
-    hours: 20,
+    tempDay: tempDate.getDate() + 8,
+    hours: 22,
+    minutes: 9,
+    seconds: 0,
+  },
+  {
+    id: 4,
+    productName: "I-MAC",
+    productImage: imac,
+    desc: `The top iMac model used to be the iMac Pro. The Pro name was subsequently dropped, but the current 27" iMac is similar (see iMac Pro). In 2021, the first iMac with Apple's M1 processor debuted, and both Apple and Intel models are available.`,
+    buyLink: "https://www.apple.com/shop/buy-mac/imac",
+    discountedPrice: 3299,
+    discountedsubPrice: 99,
+    originalPrice: 4299,
+    originalsubPrice: 99,
+    tempYear: tempDate.getFullYear(),
+    tempMonth: tempDate.getMonth(),
+    tempDay: tempDate.getDate() + 3,
+    hours: 1,
     minutes: 59,
     seconds: 0,
   },
-  // {
-  //   id: 4,
-  //   productName: "I-MAC",
-  //   productImage: imac,
-  //   desc: `The top iMac model used to be the iMac Pro. The Pro name was subsequently dropped, but the current 27" iMac is similar (see iMac Pro). In 2021, the first iMac with Apple's M1 processor debuted, and both Apple and Intel models are available.`,
-  //buyLink:'https://www.apple.com/shop/buy-mac/imac'
-
-  //   discountedPrice: 3299,
-  //   discountedsubPrice: 99,
-  //   originalPrice: 4299,
-  //   originalsubPrice: 99,
-  //   tempYear: tempDate.getFullYear(),
-  //   tempMonth: tempDate.getMonth(),
-  //   tempDay: tempDate.getDate(),
-  //   hours: 16,
-  //   minutes: 59,
-  //   seconds: 0,
-  // },
 ];
 
 // const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
 
-// // British English uses day-month-year order and 24-hour time without AM/PM
+// British English uses day-month-year order and 24-hour time without AM/PM
 // console.log(event.toLocaleString());
 // console.log(event.toLocaleTimeString());
 // console.log(event.toLocaleDateString());
